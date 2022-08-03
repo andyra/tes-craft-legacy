@@ -6,7 +6,6 @@
         "craftcms/webhooks": "3.0.4",
         "vaersaagod/dospaces": "^2.0.0",
         "verbb/cp-nav": "4.0.5",
-        "verbb/expanded-singles": "2.0.0",
         "vlucas/phpdotenv": "^5.4.0"
     },
     "require-dev": {
