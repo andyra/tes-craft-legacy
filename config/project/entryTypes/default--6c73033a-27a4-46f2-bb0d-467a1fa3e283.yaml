@@ -1,0 +1,55 @@
+fieldLayouts:
+  92edb681-0b6b-4507-b3fb-37b760371d3d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: aefee387-896e-4a3c-97b2-b5f1cf5f144c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cc4b6a6e-842d-4f5a-98d4-377872d9f30e # Vimeo ID
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7f9d72e8-b8d2-4b27-add2-8c29b4c1e335
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a826aeda-40ef-466a-812e-a54cd4c93159
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: d3b80462-3ec8-4fd0-9e36-120250c82f43 # Videos
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

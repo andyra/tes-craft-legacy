@@ -1,0 +1,19 @@
+columnSuffix: jxxszcbu
+contentColumnType: text
+fieldGroup: a9e7a3db-b984-4603-9995-dfdbe328ab1a # Globals
+handle: strategies
+instructions: 'One item per line'
+name: Strategies
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: true
+  columnType: null
+  initialRows: 12
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

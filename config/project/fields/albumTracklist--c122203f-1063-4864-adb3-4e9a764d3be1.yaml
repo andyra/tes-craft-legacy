@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 39f5cac7-4bef-4a43-b917-4e68f50b886c # Album
+handle: albumTracklist
+instructions: null
+name: 'Album Tracklist'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_albumtracklist}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

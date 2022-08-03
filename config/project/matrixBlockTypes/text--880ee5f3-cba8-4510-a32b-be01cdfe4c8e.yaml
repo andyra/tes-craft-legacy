@@ -1,0 +1,50 @@
+field: be3e3c2b-d8fa-43a8-8ea8-3af2146d87c2 # Post Content
+fieldLayouts:
+  fca6f560-c13f-4212-8386-56ca0f04d3ef:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3f09b609-09e7-4e7b-a55e-1c243ed7a6fb # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a6686d0-6dfd-4a04-84f7-32ff47e1b187
+            warning: null
+            width: 100
+        name: Content
+        uid: b351e8bf-0188-4440-afb7-8476bb03e49b
+fields:
+  3f09b609-09e7-4e7b-a55e-1c243ed7a6fb: # Text
+    columnSuffix: nfgagvkx
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: 'Select some text to open the formatting menu for headings, lists, links, etc.'
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: text
+name: Text
+sortOrder: 1

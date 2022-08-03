@@ -1,0 +1,24 @@
+fieldLayouts:
+  3b10bbe6-c85b-421a-b002-f4cccbdd6b0f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 41d72467-3614-4a4b-bcfc-47d5f309de1b # Strategies
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ae34f51-c73e-466b-b7a0-b1ad305e32da
+            userCondition: null
+            warning: null
+            width: 100
+        name: Default
+        uid: 3bcbcff6-a4be-41d2-9b62-41abf5fb0455
+        userCondition: null
+handle: setlistComputor
+name: 'Setlist Computor'
+sortOrder: 1

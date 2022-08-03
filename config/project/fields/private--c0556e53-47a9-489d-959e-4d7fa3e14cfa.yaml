@@ -1,0 +1,14 @@
+columnSuffix: mssokura
+contentColumnType: boolean
+fieldGroup: bb42ca20-0a78-412d-b3ae-33b646167750 # Playlist
+handle: private
+instructions: ''
+name: Private
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

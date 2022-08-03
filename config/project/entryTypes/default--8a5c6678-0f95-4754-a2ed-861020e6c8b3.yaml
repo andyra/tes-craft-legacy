@@ -1,0 +1,115 @@
+fieldLayouts:
+  529fbce7-b5a2-40db-8fc6-9dbf37caf274:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9b1f9bb5-6329-4812-bcf1-f040998da5ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ddd6593c-82e0-452a-8942-a975a0044180 # Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ec717ab-8282-4334-be83-7c8b02df9090
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7d605b47-ab1c-40fa-8bab-c97bb8059fb8 # Episode Audio
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f48d936-ca39-4587-82f7-40c29e300bc5
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0662a000-6e80-4a92-86af-54fd60144adb # Release Date
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c502aa9d-300b-4705-aedc-7370304dcd5a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: c9590051-73c5-4649-b1e6-8e9e04883c36 # Episode Cover Art
+            instructions: null
+            label: 'Cover Art'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2921e5c6-6b6c-4e87-9266-546fc15e84ed
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 68eab3e5-267d-4af6-ac44-2d7e0d49b705 # Companion Album
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d161445f-9a15-4d1c-8321-dfc0c05c046e
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 3ddcb807-d5ed-46a5-97ef-e4987bb9a122 # Episode Tracklist
+            instructions: null
+            label: Tracklist
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 27d5f00b-3a29-4cd6-b693-abd714669bf4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0e878ef5-140a-446b-b80a-4d876c350f13
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 6b802ff4-dc8b-47a5-a650-2a7e4dd14e53 # Episodes
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

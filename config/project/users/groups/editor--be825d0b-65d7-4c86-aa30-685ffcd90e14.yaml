@@ -1,0 +1,80 @@
+description: ''
+handle: editor
+name: Editor
+permissions:
+  - accesscp
+  - accesscpwhensystemisoff
+  - accesssitewhensystemisoff
+  - 'createentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'createentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'createentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'createentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'createentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'createfolders:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'deleteassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'deletecategories:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+  - 'deletecategories:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  - 'deleteentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'deleteentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'deleteentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'deleteentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'deleteentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'deletepeerassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'deletepeercategorydrafts:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+  - 'deletepeercategorydrafts:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  - 'deletepeerentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'deletepeerentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'deletepeerentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'deletepeerentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'deletepeerentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'deletepeerentrydrafts:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'deletepeerentrydrafts:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'deletepeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'deletepeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'deletepeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'editimages:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'editpeerimages:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'replacefiles:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'replacepeerfiles:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'saveassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'savecategories:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+  - 'savecategories:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  - 'saveentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'saveentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'saveentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'saveentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'saveentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'savepeerassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'savepeercategorydrafts:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+  - 'savepeercategorydrafts:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  - 'savepeerentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'savepeerentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'savepeerentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'savepeerentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'savepeerentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'savepeerentrydrafts:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'savepeerentrydrafts:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'savepeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'savepeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'savepeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'viewassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'viewcategories:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+  - 'viewcategories:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  - 'viewentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'viewentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'viewentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'viewentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'viewentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'viewpeerassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  - 'viewpeercategorydrafts:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+  - 'viewpeercategorydrafts:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  - 'viewpeerentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'viewpeerentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'viewpeerentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'viewpeerentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'viewpeerentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'viewpeerentrydrafts:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  - 'viewpeerentrydrafts:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'viewpeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'viewpeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+  - 'viewpeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos

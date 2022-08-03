@@ -1,0 +1,24 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 39f5cac7-4bef-4a43-b917-4e68f50b886c # Album
+handle: artist
+instructions: ''
+name: Artist
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: Add
+  showSiteMenu: false
+  source: 'group:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

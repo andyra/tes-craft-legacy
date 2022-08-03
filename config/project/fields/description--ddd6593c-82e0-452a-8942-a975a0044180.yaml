@@ -1,0 +1,19 @@
+columnSuffix: eyyercxz
+contentColumnType: text
+fieldGroup: 24546d52-6d19-407f-af8d-d46cbdda33dd # Common
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

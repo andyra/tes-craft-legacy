@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 17e56e93-4842-46df-9a08-a0c64e9f1fd6 # Episode
+handle: episodeTracklist
+instructions: null
+name: 'Episode Tracklist'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_episodetracklist}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

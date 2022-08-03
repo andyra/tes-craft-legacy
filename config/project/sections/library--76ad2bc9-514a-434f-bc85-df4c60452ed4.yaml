@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: library
+name: Library
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  7926d1d4-2868-4570-a130-3ad5f97521f3: # TES
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'library/{slug}'
+type: channel

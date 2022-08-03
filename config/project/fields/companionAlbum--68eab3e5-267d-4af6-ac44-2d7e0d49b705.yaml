@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 17e56e93-4842-46df-9a08-a0c64e9f1fd6 # Episode
+handle: companionAlbum
+instructions: ''
+name: 'Companion Album'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Select Album'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

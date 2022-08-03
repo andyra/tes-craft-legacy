@@ -1,0 +1,153 @@
+field: 3ddcb807-d5ed-46a5-97ef-e4987bb9a122 # Episode Tracklist
+fieldLayouts:
+  13dcfcba-6b14-45c0-9894-3aa8e9cbe93d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 93421e91-6d98-4407-8914-adf2d2e28104 # Song
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 603c3111-d8ee-4ca9-92e5-fb11d311e417
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 761fd8dd-2f5a-4313-bbb1-ac20c64ccd82 # Title Variant
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a6d90f3-74a0-4856-9af3-234e92d67aaf
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 43d0cdeb-018e-4cbb-a066-bc4f74917d4b # Audio File
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03287b20-4640-473e-a66b-0e5a819727ca
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: ed0ad43c-1206-4591-af86-4ba78fd4a1fc
+        userCondition: null
+fields:
+  43d0cdeb-018e-4cbb-a066-bc4f74917d4b: # Audio File
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: audioFile
+    instructions: 320kbps
+    name: 'Audio File'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - audio
+      defaultUploadLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      restrictedLocationSubpath: 'episodes/{owner.slug}'
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add Audio File'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  761fd8dd-2f5a-4313-bbb1-ac20c64ccd82: # Title Variant
+    columnSuffix: hftylegv
+    contentColumnType: text
+    fieldGroup: null
+    handle: titleVariant
+    instructions: 'ex: (reprise), (instrumental), etc.'
+    name: 'Title Variant'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  93421e91-6d98-4407-8914-adf2d2e28104: # Song
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: song
+    instructions: null
+    name: Song
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: 'Select Song'
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: song
+name: Song
+sortOrder: 1

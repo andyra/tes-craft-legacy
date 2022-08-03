@@ -1,0 +1,17 @@
+currLabel: Activity
+customIcon: null
+enabled: true
+handle: activity
+icon: null
+layout: cc535655-d27d-44b9-bb0c-2a8c6b54fb85 # Default
+level: 2
+newWindow: false
+parent: a1fa7c3a-0011-4f60-9124-08f0028554ee
+prevLabel: Activity
+prevLevel: 2
+prevParent: a1fa7c3a-0011-4f60-9124-08f0028554ee
+prevUrl: webhooks/activity
+sortOrder: 12
+subnavBehaviour: null
+type: plugin
+url: webhooks/activity

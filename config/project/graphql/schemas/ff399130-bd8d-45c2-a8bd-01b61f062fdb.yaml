@@ -1,0 +1,23 @@
+isPublic: false
+name: 'Edit Playlists'
+scope:
+  - 'sections.309262c6-c9aa-4b76-89d2-66718d1a77f3:read' # Albums
+  - 'entrytypes.7c254cfd-874c-4630-b663-9a96ed2c1f6d:read' # Default
+  - 'sections.6b802ff4-dc8b-47a5-a650-2a7e4dd14e53:read' # Episodes
+  - 'entrytypes.8a5c6678-0f95-4754-a2ed-861020e6c8b3:read' # Default
+  - 'sections.e9724a2b-08e5-4af5-912f-8b72f34e4dd2:read' # Playlists
+  - 'entrytypes.d6273500-077c-4c0b-a3ad-ca45d74dc701:read' # Default
+  - 'entrytypes.5eba3c53-ced4-4bb0-9e92-4c547a01428d:read' # Favorites
+  - 'sections.9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7:read' # Songs
+  - 'entrytypes.779e74cf-9ab8-4eb6-a8e4-51ac994eb9ad:read' # Default
+  - 'volumes.2173db2f-6479-4618-93b6-7268d73a8c6a:read' # Files
+  - 'usergroups.everyone:read'
+  - 'categorygroups.fc529425-c660-4760-8b25-523f8675ed7c:read' # Artists
+  - 'sections.e9724a2b-08e5-4af5-912f-8b72f34e4dd2:edit' # Playlists
+  - 'entrytypes.d6273500-077c-4c0b-a3ad-ca45d74dc701:edit' # Default
+  - 'entrytypes.d6273500-077c-4c0b-a3ad-ca45d74dc701:create' # Default
+  - 'entrytypes.d6273500-077c-4c0b-a3ad-ca45d74dc701:save' # Default
+  - 'entrytypes.d6273500-077c-4c0b-a3ad-ca45d74dc701:delete' # Default
+  - 'entrytypes.5eba3c53-ced4-4bb0-9e92-4c547a01428d:edit' # Favorites
+  - 'entrytypes.5eba3c53-ced4-4bb0-9e92-4c547a01428d:save' # Favorites
+  - 'sites.7926d1d4-2868-4570-a130-3ad5f97521f3:read' # TES

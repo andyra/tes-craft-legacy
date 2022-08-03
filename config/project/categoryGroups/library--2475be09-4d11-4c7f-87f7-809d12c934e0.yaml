@@ -1,0 +1,42 @@
+defaultPlacement: end
+fieldLayouts:
+  d9d9a874-fa0b-466c-9109-e93df1d0c5a2:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 27dd058e-41e2-461a-811e-d12407036803
+            warning: null
+            width: 100
+        name: Content
+        uid: ca479ce3-a3c3-4266-b42e-e4519c7e50fa
+handle: library
+name: Library
+siteSettings:
+  7926d1d4-2868-4570-a130-3ad5f97521f3: # TES
+    hasUrls: true
+    template: null
+    uriFormat: 'wiki/{slug}'
+structure:
+  maxLevels: null
+  uid: 82690236-ba96-4935-8fb3-fcb812640e56

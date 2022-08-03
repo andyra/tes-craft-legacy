@@ -1,0 +1,108 @@
+field: be3e3c2b-d8fa-43a8-8ea8-3af2146d87c2 # Post Content
+fieldLayouts:
+  5a65e7ec-3d2b-4faf-9e21-689c6b2405d0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: cae7015e-7b1c-4b04-b9ae-f65ebf885a52 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b24b4cea-3efc-4ef6-ac86-27d29f2e0647
+            warning: null
+            width: 50
+          -
+            fieldUid: 20aad5f6-ca48-46d1-a404-d2e597cf5efa # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92e5df85-43b0-4127-b8b3-b5a37f37f4bf
+            warning: null
+            width: 50
+        name: Content
+        uid: eb86dbbe-729b-4a7b-815b-9e6e2ca94280
+fields:
+  20aad5f6-ca48-46d1-a404-d2e597cf5efa: # Caption
+    columnSuffix: gjnbxdzi
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: null
+    name: Caption
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  cae7015e-7b1c-4b04-b9ae-f65ebf885a52: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      restrictedLocationSubpath: 'library/{owner.slug}'
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 2

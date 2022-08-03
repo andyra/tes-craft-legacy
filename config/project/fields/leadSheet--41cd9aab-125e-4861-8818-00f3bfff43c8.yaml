@@ -1,0 +1,19 @@
+columnSuffix: xosehwtd
+contentColumnType: text
+fieldGroup: adaf13a9-aad8-4c7e-bb87-c077a5f28007 # Song
+handle: leadSheet
+instructions: 'Uses a <a href="https://tes.fm/lead-sheets" target="_blank">subset of the ChordPro syntax</a>'
+name: 'Lead Sheet'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: true
+  columnType: null
+  initialRows: 12
+  multiline: true
+  placeholder: null
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,69 @@
+fieldLayouts:
+  38f42952-f059-41d4-8ea6-8887bf005ed6:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1337f146-bea7-4673-8141-42ef1972145b
+            warning: null
+            width: 100
+          -
+            fieldUid: 699d7748-1a32-4262-9c04-4954ec87dd9f # Featured Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5936255e-14ef-4c2c-81ee-b7363edf6489
+            warning: null
+            width: 50
+          -
+            fieldUid: 091ea081-3ad1-48ec-b8f2-cfb15790a14c # Categories
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2eac4ead-d367-4b2f-b7f9-baa82607a649
+            warning: null
+            width: 50
+          -
+            fieldUid: be3e3c2b-d8fa-43a8-8ea8-3af2146d87c2 # Post Content
+            instructions: null
+            label: Content
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be4cc705-cbf3-42f3-b835-4107f0d6a879
+            warning: null
+            width: 100
+        name: Content
+        uid: dfc86bb1-1bc8-4b57-91aa-780d7376d1d0
+handle: default
+hasTitleField: true
+name: Default
+section: 76ad2bc9-514a-434f-bc85-df4c60452ed4 # Library
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,16 @@
+{
+  "air": true,
+  "cleanOnEnter": true,
+  "buttons": [
+    "formatting",
+    "bold",
+    "unorderedlist",
+    "orderedlist",
+    "link",
+    "html"
+  ],
+  "formatting": ["h2", "h3", "p", "blockquote"],
+  "linkNewTab": true,
+  "removeComments": true,
+  "removeNewLines": true
+}

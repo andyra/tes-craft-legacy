@@ -1,0 +1,16 @@
+currLabel: System
+customIcon: ''
+enabled: '1'
+handle: divider
+icon: ''
+layout: cc535655-d27d-44b9-bb0c-2a8c6b54fb85 # Default
+level: 1
+newWindow: '0'
+parentId: null
+prevLabel: Divider
+prevLevel: null
+prevParentId: null
+prevUrl: ''
+sortOrder: 6
+type: divider
+url: ''

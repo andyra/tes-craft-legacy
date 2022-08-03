@@ -1,0 +1,100 @@
+field: c122203f-1063-4864-adb3-4e9a764d3be1 # Album Tracklist
+fieldLayouts:
+  6e57f97d-45b2-4680-b1d0-cb20c3a0d30d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 05543d93-2382-44f6-8cdc-2f9bb3bc1938 # Song Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f815db8-7b30-43bc-b286-ff600a247809
+            warning: null
+            width: 75
+          -
+            fieldUid: 7e7a63b2-3586-4ccc-a0c9-dbcb00344076 # Audio File
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f65148ae-5fa9-4f35-baaa-b46fcf43a725
+            warning: null
+            width: 25
+        name: Content
+        uid: 3ff138a1-eae0-425b-80a6-ec44a2642046
+fields:
+  7e7a63b2-3586-4ccc-a0c9-dbcb00344076: # Audio File
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: audioFile
+    instructions: null
+    name: 'Audio File'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - audio
+      defaultUploadLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      restrictedLocationSubpath: 'albums/{owner.slug}'
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  05543d93-2382-44f6-8cdc-2f9bb3bc1938: # Song Title
+    columnSuffix: qustctjn
+    contentColumnType: text
+    fieldGroup: null
+    handle: songTitle
+    instructions: null
+    name: 'Song Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: coverSong
+name: 'Cover Song'
+sortOrder: 3

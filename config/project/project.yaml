@@ -1,0 +1,242 @@
+dateModified: 1659555426
+elementSources:
+  craft\elements\Asset:
+    -
+      disabled: false
+      key: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      tableAttributes:
+        - imageSize
+        - size
+        - link
+      type: native
+    -
+      key: 'folder:e4b8e7d2-57a6-4fb1-8c1f-a4a2cb880127'
+      type: native
+  craft\elements\Category:
+    -
+      key: 'group:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
+      type: native
+    -
+      disabled: false
+      key: 'group:2475be09-4d11-4c7f-87f7-809d12c934e0' # Library
+      tableAttributes: '-'
+      type: native
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
+      tableAttributes:
+        - 'field:bcbe0faf-8c8b-4be1-adca-2791836a6795' # Album Cover Art
+        - 'field:77d758ad-88c1-40f2-a2ec-c595667488c7' # Artist
+        - 'field:0d4e721a-1df5-46c1-bde2-e3e5699653e2' # Album Type
+        - 'field:0662a000-6e80-4a92-86af-54fd60144adb' # Release Date
+        - postDate
+      type: native
+    -
+      disabled: false
+      key: 'section:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+      tableAttributes:
+        - 'field:0662a000-6e80-4a92-86af-54fd60144adb' # Release Date
+        - 'field:7d605b47-ab1c-40fa-8bab-c97bb8059fb8' # Episode Audio
+        - 'field:c9590051-73c5-4649-b1e6-8e9e04883c36' # Episode Cover Art
+        - 'field:68eab3e5-267d-4af6-ac44-2d7e0d49b705' # Companion Album
+        - postDate
+      type: native
+    -
+      disabled: false
+      key: 'section:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+      tableAttributes:
+        - 'field:699d7748-1a32-4262-9c04-4954ec87dd9f' # Featured Image
+        - 'field:091ea081-3ad1-48ec-b8f2-cfb15790a14c' # Categories
+        - postDate
+      type: native
+    -
+      disabled: false
+      key: 'section:e9724a2b-08e5-4af5-912f-8b72f34e4dd2' # Playlists
+      tableAttributes:
+        - author
+        - postDate
+      type: native
+    -
+      disabled: false
+      key: 'section:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
+      tableAttributes:
+        - 'field:59bcd338-8afd-4b98-b904-41bc93d58557' # Notation
+        - postDate
+      type: native
+    -
+      disabled: false
+      key: 'section:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+      tableAttributes:
+        - 'field:cc4b6a6e-842d-4f5a-98d4-377872d9f30e' # Vimeo ID
+        - postDate
+      type: native
+email:
+  fromEmail: asmith.esq@gmail.com
+  fromName: TES
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  files:
+    hasUrls: true
+    name: Files
+    settings:
+      bucket: $SPACES_BUCKET
+      contentDisposition: ''
+      endpoint: $SPACES_ENDPOINT
+      expires: ''
+      keyId: $SPACES_API_KEY
+      region: $SPACES_REGION
+      secret: $SPACES_SECRET
+      subfolder: ''
+    type: vaersaagod\dospaces\Fs
+    url: $SPACES_URL
+meta:
+  __names__:
+    0d4e721a-1df5-46c1-bde2-e3e5699653e2: 'Album Type' # Album Type
+    0fa5536b-ee6d-41f7-826c-2539107997c1: Segment # Segment
+    1a1e6734-9ddd-496e-a5e0-0315ca580c9f: 'Liked By' # Liked By
+    1fabe9ba-0254-4fe7-b673-d35d5160d714: 'Section Title' # Section Title
+    2cd00baf-e496-4c88-834e-e76ec7c689ac: '…or Segment Description' # …or Segment Description
+    3ddcb807-d5ed-46a5-97ef-e4987bb9a122: 'Episode Tracklist' # Episode Tracklist
+    3f09b609-09e7-4e7b-a55e-1c243ed7a6fb: Text # Text
+    4bf7e468-dc82-47ab-bac8-cbd6fdb342bc: 'Liked By' # Liked By
+    4ee47494-8b08-4b0b-8bbb-41c09201b3da: 'Cover Song' # Cover Song
+    5eba3c53-ced4-4bb0-9e92-4c547a01428d: Favorites # Favorites
+    6b802ff4-dc8b-47a5-a650-2a7e4dd14e53: Episodes # Episodes
+    6c73033a-27a4-46f2-bb0d-467a1fa3e283: Default # Default
+    6d88c108-9da9-4dff-a926-d9f894e7504d: 'Setlist Computor' # Setlist Computor
+    7bbb736f-b707-4583-8141-d56e181743d3: 'File Path' # File Path
+    7c254cfd-874c-4630-b663-9a96ed2c1f6d: Default # Default
+    7d605b47-ab1c-40fa-8bab-c97bb8059fb8: 'Episode Audio' # Episode Audio
+    7e1b8585-ccc4-4b3b-8970-ed39ef94bb24: Segment # Segment
+    7e7a63b2-3586-4ccc-a0c9-dbcb00344076: 'Audio File' # Audio File
+    8a5c6678-0f95-4754-a2ed-861020e6c8b3: Default # Default
+    08a98c7f-3e70-40c1-b660-9e4c4a16d5b7: 'Audio File' # Audio File
+    8e195a73-25de-4218-93fa-ae75ba30d4bd: 'Date Added' # Date Added
+    9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7: Songs # Songs
+    9f9226df-a33d-4014-8d15-f1f5890b5e63: Caption # Caption
+    17e56e93-4842-46df-9a08-a0c64e9f1fd6: Episode # Episode
+    20aad5f6-ca48-46d1-a404-d2e597cf5efa: Caption # Caption
+    30fbf57a-db19-4f9c-a6ab-56880afb27b4: 'Audio File' # Audio File
+    39f5cac7-4bef-4a43-b917-4e68f50b886c: Album # Album
+    41cd9aab-125e-4861-8818-00f3bfff43c8: 'Lead Sheet' # Lead Sheet
+    41d72467-3614-4a4b-bcfc-47d5f309de1b: Strategies # Strategies
+    43d0cdeb-018e-4cbb-a066-bc4f74917d4b: 'Audio File' # Audio File
+    46be9a4c-df7c-423c-8c5b-8f8507511554: Entries # Entries
+    48b0f356-7575-459f-963f-62aef5637f25: 'Audio File' # Audio File
+    48e6fb34-aea1-4b23-a459-05c67e2506da: 'Audio File' # Audio File
+    53f9f840-0127-4751-a68b-c967bf46f314: 'Setlist Computor' # Setlist Computor
+    59bcd338-8afd-4b98-b904-41bc93d58557: Notation # Notation
+    60ebdefe-b6bb-42ea-8b41-a0913690888c: Song # Song
+    68eab3e5-267d-4af6-ac44-2d7e0d49b705: 'Companion Album' # Companion Album
+    76ad2bc9-514a-434f-bc85-df4c60452ed4: Library # Library
+    77d758ad-88c1-40f2-a2ec-c595667488c7: Artist # Artist
+    091ea081-3ad1-48ec-b8f2-cfb15790a14c: Categories # Categories
+    416bebd0-92e6-4290-87dd-2c081681b190: 'Section Title' # Section Title
+    0505da53-74a4-4565-a389-7875e4438d82: Default # Default
+    596b25c9-d4e1-43c3-8441-0aa72c44835b: Album # Album
+    599b1388-41da-49a3-87b1-e8112aefaf14: Song # Song
+    645c0bbb-e71d-45b5-9df2-4f0857590a7a: Library # Library
+    0662a000-6e80-4a92-86af-54fd60144adb: 'Release Date' # Release Date
+    699d7748-1a32-4262-9c04-4954ec87dd9f: 'Featured Image' # Featured Image
+    756d424d-5197-4be0-9bfa-0ed38fe0a45e: Video # Video
+    761fd8dd-2f5a-4313-bbb1-ac20c64ccd82: 'Title Variant' # Title Variant
+    779e74cf-9ab8-4eb6-a8e4-51ac994eb9ad: Default # Default
+    830b0edd-9e26-4fb6-9350-b7a46c3ddf27: Lyrics # Lyrics
+    880ee5f3-cba8-4510-a32b-be01cdfe4c8e: Text # Text
+    957f44ef-029f-4ba8-9621-4a9a581d1f56: 'Added By' # Added By
+    2173db2f-6479-4618-93b6-7268d73a8c6a: Files # Files
+    2475be09-4d11-4c7f-87f7-809d12c934e0: Library # Library
+    2541f1a7-9651-4f18-ad4a-7328ba0f50c0: Description # Description
+    05543d93-2382-44f6-8cdc-2f9bb3bc1938: 'Song Title' # Song Title
+    7816e0d7-a0b1-49b3-9c54-523fc9c764a2: Description # Description
+    07851fe9-47a3-46df-bdc1-9cf827b66cef: TES # TES
+    7926d1d4-2868-4570-a130-3ad5f97521f3: TES # TES
+    9659f2f5-acf8-4d37-8eb2-0f73473944a1: 'Cover Song' # Cover Song
+    24546d52-6d19-407f-af8d-d46cbdda33dd: Common # Common
+    91673ce9-62e5-41d8-978c-986f7f6ecdf6: Song # Song
+    93421e91-6d98-4407-8914-adf2d2e28104: Song # Song
+    97244bbd-6b3a-432e-a3ab-55a3ea66f58f: 'Audio File' # Audio File
+    309262c6-c9aa-4b76-89d2-66718d1a77f3: Albums # Albums
+    a3fce604-90bf-4998-a7e8-90118753f374: Song # Song
+    a9e7a3db-b984-4603-9995-dfdbe328ab1a: Globals # Globals
+    a89ef2fa-486c-415f-a485-d537ea96c575: Song # Song
+    a823d941-8505-4739-9d32-3c0b0337238f: Song # Song
+    ab53260c-66c5-4eb4-8b7c-ec3048766f29: Tabs # Tabs
+    aca92d9b-184b-4aa0-bac1-2d03c2afd588: 'Audio File' # Audio File
+    adaf13a9-aad8-4c7e-bb87-c077a5f28007: Song # Song
+    b5239aff-3060-4188-bb73-be5d0212f4c3: 'Song Title' # Song Title
+    bb42ca20-0a78-412d-b3ae-33b646167750: Playlist # Playlist
+    bc6e86e2-c115-4cc3-85ad-afc82680e674: Image # Image
+    bcbe0faf-8c8b-4be1-adca-2791836a6795: 'Album Cover Art' # Album Cover Art
+    be3e3c2b-d8fa-43a8-8ea8-3af2146d87c2: 'Post Content' # Post Content
+    be825d0b-65d7-4c86-aa30-685ffcd90e14: Editor # Editor
+    bf261d16-fee5-4708-97cc-da6c04b9ee26: 'Audio File' # Audio File
+    c0556e53-47a9-489d-959e-4d7fa3e14cfa: Private # Private
+    c1ad5669-dd38-4310-89fe-97bd2591aa05: 'Title Variant' # Title Variant
+    c2be4ca3-8016-48b4-a102-918e7417fc9d: Strategy # Strategy
+    c4d8e3f7-eb9a-4f7e-8a53-5ad5326fe6f6: Heading # Heading
+    c122203f-1063-4864-adb3-4e9a764d3be1: 'Album Tracklist' # Album Tracklist
+    c9590051-73c5-4649-b1e6-8e9e04883c36: 'Episode Cover Art' # Episode Cover Art
+    cae7015e-7b1c-4b04-b9ae-f65ebf885a52: Image # Image
+    cc4b6a6e-842d-4f5a-98d4-377872d9f30e: 'Vimeo ID' # Vimeo ID
+    cc535655-d27d-44b9-bb0c-2a8c6b54fb85: Default # Default
+    ce0b3cb5-ce50-41fa-802e-2d5d710c8c38: Images # Images
+    ce5c02f9-1b39-4993-9e23-305e7d2869bb: 'Audio File' # Audio File
+    d3b80462-3ec8-4fd0-9e36-120250c82f43: Videos # Videos
+    d77233b0-f47a-47da-9355-bbdad67e652d: 'Audio File' # Audio File
+    d6273500-077c-4c0b-a3ad-ca45d74dc701: Default # Default
+    ddd6593c-82e0-452a-8942-a975a0044180: Description # Description
+    e5e439c8-5977-430c-87f2-6c88c5f84497: 'Public Schema' # Public Schema
+    e9724a2b-08e5-4af5-912f-8b72f34e4dd2: Playlists # Playlists
+    f1c19c6c-22b3-43d2-9183-73e487c65d36: Image # Image
+    fba46a78-4a5b-44a1-957c-9c57739b75c3: Song # Song
+    fc529425-c660-4760-8b25-523f8675ed7c: Artists # Artists
+    ff25c939-fde3-4e0a-8772-99f0bd7fbe2a: Description # Description
+    ff399130-bd8d-45c2-a8bd-01b61f062fdb: 'Edit Playlists' # Edit Playlists
+plugins:
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.11
+    settings:
+      originalNavHash:
+        __assoc__:
+          -
+            - dc9c45fd-cf8c-4f45-8b89-e66bc0a155e4
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IkVudHJpZXMiLCJ1cmwiOiJlbnRyaWVzIiwiZm9udEljb24iOiJzZWN0aW9uIn0seyJsYWJlbCI6IkNhdGVnb3JpZXMiLCJ1cmwiOiJjYXRlZ29yaWVzIiwiZm9udEljb24iOiJjYXRlZ29yaWVzIn0seyJsYWJlbCI6IkFzc2V0cyIsInVybCI6ImFzc2V0cyIsImZvbnRJY29uIjoiYXNzZXRzIn0seyJsYWJlbCI6IlVzZXJzIiwidXJsIjoidXNlcnMiLCJmb250SWNvbiI6InVzZXJzIn0seyJsYWJlbCI6IkZlZWQgTWUiLCJ1cmwiOiJmZWVkLW1lIiwiaWNvbiI6Ii9Vc2Vycy9hbmR5L0Rldi90ZXMtY3JhZnQvdmVuZG9yL2NyYWZ0Y21zL2ZlZWQtbWUvc3JjL2ljb24tbWFzay5zdmcifSx7ImxhYmVsIjoiR3JhcGhRTCIsInVybCI6ImdyYXBocWwiLCJpY29uIjoiQGFwcGljb25zL2dyYXBocWwuc3ZnIiwic3VibmF2Ijp7InNjaGVtYXMiOnsibGFiZWwiOiJTY2hlbWFzIiwidXJsIjoiZ3JhcGhxbC9zY2hlbWFzIn0sInRva2VucyI6eyJsYWJlbCI6IlRva2VucyIsInVybCI6ImdyYXBocWwvdG9rZW5zIn0sImdyYXBoaXFsIjp7ImxhYmVsIjoiR3JhcGhpUUwiLCJ1cmwiOiJncmFwaGlxbCIsImV4dGVybmFsIjp0cnVlfX19LHsidXJsIjoidXRpbGl0aWVzIiwibGFiZWwiOiJVdGlsaXRpZXMiLCJmb250SWNvbiI6InRvb2wiLCJiYWRnZUNvdW50IjowfSx7InVybCI6InNldHRpbmdzIiwibGFiZWwiOiJTZXR0aW5ncyIsImZvbnRJY29uIjoic2V0dGluZ3MifSx7InVybCI6InBsdWdpbi1zdG9yZSIsImxhYmVsIjoiUGx1Z2luIFN0b3JlIiwiZm9udEljb24iOiJwbHVnaW4ifV0=
+  dospaces:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  webhooks:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.4.0
+    settings:
+      disableAllWebhooks: false
+      initialDelay: null
+      maxAttempts: 1
+      maxDepth: 5
+      purgeDuration: 604800
+      retryDelay: 60
+system:
+  edition: pro
+  live: true
+  name: TES
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles

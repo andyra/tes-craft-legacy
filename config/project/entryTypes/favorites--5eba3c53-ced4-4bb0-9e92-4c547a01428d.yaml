@@ -1,0 +1,49 @@
+fieldLayouts:
+  b7e475df-001c-4f93-a649-0d04d2635444:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6b41eb94-c182-4614-b831-0a2155c19b0b
+            warning: null
+            width: 100
+          -
+            fieldUid: 1caa60b2-69ef-4633-a42b-1eddb1e8aa51
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ee62e8c-e106-47b1-b187-e8c53be85e08
+            warning: null
+            width: 100
+        name: Content
+        uid: 4eb95a8b-fae0-480f-a5db-07a67a8db4f2
+handle: favorites
+hasTitleField: true
+name: Favorites
+section: e9724a2b-08e5-4af5-912f-8b72f34e4dd2 # Playlists
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

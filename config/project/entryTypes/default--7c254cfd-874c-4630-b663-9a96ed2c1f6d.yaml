@@ -1,0 +1,103 @@
+fieldLayouts:
+  cd9a00c2-9ecc-437e-87a5-265566787cab:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8c99a213-1041-4ebf-9394-91301ea76b5d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bcbe0faf-8c8b-4be1-adca-2791836a6795 # Album Cover Art
+            instructions: null
+            label: 'Cover Art'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ceacc53-a103-4ec8-b087-a0aeee3c388e
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0d4e721a-1df5-46c1-bde2-e3e5699653e2 # Album Type
+            instructions: null
+            label: Type
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b61b315-85a8-47f4-af2a-735f12fb200a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 0662a000-6e80-4a92-86af-54fd60144adb # Release Date
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b39c4f61-3ead-49b8-bdd4-9a3ca0fa6ede
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 77d758ad-88c1-40f2-a2ec-c595667488c7 # Artist
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f5d717d1-844f-4d46-8e70-58ad55ab9d05
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: c122203f-1063-4864-adb3-4e9a764d3be1 # Album Tracklist
+            instructions: null
+            label: Tracklist
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 579fe05c-40e4-40c4-94b7-8e68633220fd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3af7d18e-ca29-4dc5-a0a5-ab87a8666769
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 309262c6-c9aa-4b76-89d2-66718d1a77f3 # Albums
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

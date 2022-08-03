@@ -1,0 +1,47 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 17e56e93-4842-46df-9a08-a0c64e9f1fd6 # Episode
+handle: episodeCoverArt
+instructions: 'JPG 1400×1400px'
+name: 'Episode Cover Art'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+  restrictedLocationSubpath: 'episodes/{slug}'
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+  selectionLabel: 'Add Image'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  source: null
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

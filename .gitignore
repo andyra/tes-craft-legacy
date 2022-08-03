@@ -1,0 +1,7 @@
+/.env
+/vendor
+
+# Misc files
+.DS_Store
+/.idea
+/.nova

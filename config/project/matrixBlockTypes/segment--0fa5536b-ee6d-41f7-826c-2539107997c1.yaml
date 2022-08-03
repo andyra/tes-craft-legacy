@@ -1,0 +1,100 @@
+field: c122203f-1063-4864-adb3-4e9a764d3be1 # Album Tracklist
+fieldLayouts:
+  358807be-5980-4e8c-a4a7-e258b5608a96:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7816e0d7-a0b1-49b3-9c54-523fc9c764a2 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b4644088-9f64-4b4c-a0f6-9a77923e5fac
+            warning: null
+            width: 75
+          -
+            fieldUid: d77233b0-f47a-47da-9355-bbdad67e652d # Audio File
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b0d5f528-0c7b-4733-9b5b-8b2a719d5390
+            warning: null
+            width: 25
+        name: Content
+        uid: cdc6ce5d-5e85-4900-a316-8f851f5a87c4
+fields:
+  7816e0d7-a0b1-49b3-9c54-523fc9c764a2: # Description
+    columnSuffix: bixbroif
+    contentColumnType: string(1120)
+    fieldGroup: null
+    handle: description
+    instructions: 'Brief description of what happens in this segment'
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 280
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d77233b0-f47a-47da-9355-bbdad67e652d: # Audio File
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: audioFile
+    instructions: null
+    name: 'Audio File'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - audio
+      defaultUploadLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: true
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
+      restrictedLocationSubpath: 'albums/{owner.slug}'
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add Audio File'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: segment
+name: Segment
+sortOrder: 2

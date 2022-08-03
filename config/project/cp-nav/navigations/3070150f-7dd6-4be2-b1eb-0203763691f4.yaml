@@ -1,0 +1,16 @@
+currLabel: 'Feed Me'
+customIcon: ''
+enabled: '1'
+handle: feed-me
+icon: /Users/andy/Dev/tes-craft/vendor/craftcms/feed-me/src/icon-mask.svg
+layout: cc535655-d27d-44b9-bb0c-2a8c6b54fb85 # Default
+level: 1
+newWindow: '0'
+parentId: null
+prevLabel: 'Feed Me'
+prevLevel: null
+prevParentId: null
+prevUrl: feed-me
+sortOrder: 9
+type: plugin
+url: feed-me
