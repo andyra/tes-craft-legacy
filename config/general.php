@@ -36,13 +36,18 @@ return [
     'disallowRobots' => !$isProd,
 
     // Whether the GraphQL API should be enabled
-    "enableGql" => true,
+    'enableGql' => true,
 
     // Whether the system should run in Headless Mode, which optimizes the system and control panel for headless CMS implementations
-    "headlessMode" => true,
+    'headlessMode' => true,
 
     // The string to use to separate words when uploading Assets. If set to false, spaces will be left alone
-    "filenameWordSeparator" => false,
+    'filenameWordSeparator' => false,
 
-    "maxUploadFileSize" => "256M",
+    'maxUploadFileSize' => '256M',
+
+    // https://craftcms.com/docs/4.x/config/#aliases
+    'aliases' => [
+        '@web' => App::env('PRIMARY_SITE_URL'),
+    ],
 ];
