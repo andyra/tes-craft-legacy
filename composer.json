@@ -1,11 +1,11 @@
 {
     "require": {
-        "craftcms/cms": "4.2.0.2",
+        "craftcms/cms": "4.2.2",
         "craftcms/feed-me": "5.0.4",
         "craftcms/redactor": "3.0.2",
         "craftcms/webhooks": "3.0.4",
         "vaersaagod/dospaces": "^2.0.0",
-        "verbb/cp-nav": "4.0.5",
+        "verbb/cp-nav": "4.0.6",
         "vlucas/phpdotenv": "^5.4.0",
         "weareferal/remote-sync": "^4.0"
     },
