@@ -1,4 +1,4 @@
-dateModified: 1661278185
+dateModified: 1661279694
 elementSources:
   craft\elements\Asset:
     -
@@ -203,7 +203,7 @@ meta:
 plugins:
   cp-nav:
     edition: standard
-    enabled: false
+    enabled: true
     schemaVersion: 2.0.11
     settings:
       originalNavHash:
