@@ -1,4 +1,4 @@
-dateModified: 1659569304
+dateModified: 1661278185
 elementSources:
   craft\elements\Asset:
     -
@@ -223,6 +223,52 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  remote-sync:
+    edition: standard
+    enabled: true
+    licenseKey: U9LLGKSR4LA6Y1UAJ0IGWAKG
+    schemaVersion: 1.0.0
+    settings:
+      b2BucketName: ''
+      b2BucketPath: ''
+      b2MasterAppKey: ''
+      b2MasterKeyID: ''
+      b2RegionName: ''
+      cloudProvider: do
+      displayDateFormat: 'Y-m-d H:i:s'
+      doAccessKey: $SPACES_API_KEY
+      doRegionName: $SPACES_REGION
+      doSecretKey: $SPACES_SECRET
+      doSpacesName: $SPACES_BUCKET
+      doSpacesPath: $SPACES_DATABASE_PATH
+      dropboxAccessToken: ''
+      dropboxAppKey: ''
+      dropboxFolder: ''
+      dropboxSecretKey: ''
+      enabled: '1'
+      googleAuthRedirect: ''
+      googleClientId: ''
+      googleClientSecret: ''
+      googleDriveFolderId: ''
+      googleProjectName: ''
+      hideDatabases: ''
+      hideVolumes: ''
+      keepEmergencyBackup: '1'
+      otherS3AccessKey: ''
+      otherS3BucketName: ''
+      otherS3BucketPath: ''
+      otherS3Endpoint: ''
+      otherS3RegionName: ''
+      otherS3SecretKey: ''
+      prune: '1'
+      pruneLimit: '10'
+      queueTtr: '300'
+      s3AccessKey: ''
+      s3BucketName: ''
+      s3BucketPath: ''
+      s3RegionName: ''
+      s3SecretKey: ''
+      useQueue: ''
   webhooks:
     edition: standard
     enabled: true

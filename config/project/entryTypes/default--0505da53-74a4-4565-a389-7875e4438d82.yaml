@@ -2,6 +2,7 @@ fieldLayouts:
   38f42952-f059-41d4-8ea6-8887bf005ed6:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -25,9 +27,11 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
             uid: 1337f146-bea7-4673-8141-42ef1972145b
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 699d7748-1a32-4262-9c04-4954ec87dd9f # Featured Image
             instructions: null
             label: null
@@ -35,9 +39,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 5936255e-14ef-4c2c-81ee-b7363edf6489
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: 091ea081-3ad1-48ec-b8f2-cfb15790a14c # Categories
             instructions: null
             label: null
@@ -45,9 +51,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 2eac4ead-d367-4b2f-b7f9-baa82607a649
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: be3e3c2b-d8fa-43a8-8ea8-3af2146d87c2 # Post Content
             instructions: null
             label: Content
@@ -55,10 +63,12 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: be4cc705-cbf3-42f3-b835-4107f0d6a879
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: dfc86bb1-1bc8-4b57-91aa-780d7376d1d0
+        userCondition: null
 handle: default
 hasTitleField: true
 name: Default

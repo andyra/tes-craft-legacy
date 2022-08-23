@@ -2,13 +2,13 @@ columnSuffix: appeyhvu
 contentColumnType: datetime
 fieldGroup: 24546d52-6d19-407f-af8d-d46cbdda33dd # Common
 handle: releaseDate
-instructions: ''
+instructions: null
 name: 'Release Date'
 searchable: false
 settings:
   max: null
   min: null
-  minuteIncrement: '30'
+  minuteIncrement: 30
   showDate: true
   showTime: false
   showTimeZone: false

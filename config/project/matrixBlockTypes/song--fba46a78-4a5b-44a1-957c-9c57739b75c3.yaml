@@ -3,8 +3,10 @@ fieldLayouts:
   3c7da260-96cb-49d3-b297-5ba71e067767:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: a3fce604-90bf-4998-a7e8-90118753f374 # Song
             instructions: null
             label: null
@@ -12,9 +14,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b6a73470-84b8-4061-b97b-9bf86d65120b
+            userCondition: null
             warning: null
             width: 50
           -
+            elementCondition: null
             fieldUid: c1ad5669-dd38-4310-89fe-97bd2591aa05 # Title Variant
             instructions: null
             label: null
@@ -22,9 +26,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 393a58dc-638d-443c-8193-94d6ef1aced8
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: aca92d9b-184b-4aa0-bac1-2d03c2afd588 # Audio File
             instructions: null
             label: null
@@ -32,10 +38,12 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: f4b12e62-ffb1-483a-b4f9-865b8eb24b48
+            userCondition: null
             warning: null
             width: 25
         name: Content
         uid: 9df7392c-5df8-45b8-a58d-9eb9c1a30cff
+        userCondition: null
 fields:
   a3fce604-90bf-4998-a7e8-90118753f374: # Song
     columnSuffix: null

@@ -2,7 +2,7 @@ columnSuffix: kkkxmawj
 contentColumnType: string
 fieldGroup: 39f5cac7-4bef-4a43-b917-4e68f50b886c # Album
 handle: albumType
-instructions: ''
+instructions: null
 name: 'Album Type'
 searchable: true
 settings:

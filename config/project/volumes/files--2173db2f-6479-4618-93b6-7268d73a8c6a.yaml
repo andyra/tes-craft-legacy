@@ -2,6 +2,7 @@ fieldLayouts:
   c64d785c-d424-4e9d-b55f-17d7aba15a8f:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -25,10 +27,12 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
             uid: 4607f7b4-70c5-4f40-a99c-ddc699d3df1a
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: c7b3c740-8eae-4e72-81c8-bbb9ee7a7a3b
+        userCondition: null
 fs: files
 handle: files
 name: Files

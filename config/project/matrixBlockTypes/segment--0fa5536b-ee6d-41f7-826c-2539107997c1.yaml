@@ -3,8 +3,10 @@ fieldLayouts:
   358807be-5980-4e8c-a4a7-e258b5608a96:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 7816e0d7-a0b1-49b3-9c54-523fc9c764a2 # Description
             instructions: null
             label: null
@@ -12,9 +14,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b4644088-9f64-4b4c-a0f6-9a77923e5fac
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: d77233b0-f47a-47da-9355-bbdad67e652d # Audio File
             instructions: null
             label: null
@@ -22,10 +26,12 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b0d5f528-0c7b-4733-9b5b-8b2a719d5390
+            userCondition: null
             warning: null
             width: 25
         name: Content
         uid: cdc6ce5d-5e85-4900-a316-8f851f5a87c4
+        userCondition: null
 fields:
   7816e0d7-a0b1-49b3-9c54-523fc9c764a2: # Description
     columnSuffix: bixbroif

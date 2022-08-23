@@ -2,13 +2,14 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 17e56e93-4842-46df-9a08-a0c64e9f1fd6 # Episode
 handle: companionAlbum
-instructions: ''
+instructions: null
 name: 'Companion Album'
 searchable: false
 settings:
   allowSelfRelations: false
-  limit: '1'
   localizeRelations: false
+  maxRelations: 1
+  minRelations: null
   selectionLabel: 'Select Album'
   showSiteMenu: false
   source: null
