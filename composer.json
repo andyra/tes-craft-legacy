@@ -6,7 +6,8 @@
         "craftcms/webhooks": "3.0.4",
         "vaersaagod/dospaces": "^2.0.0",
         "verbb/cp-nav": "4.0.5",
-        "vlucas/phpdotenv": "^5.4.0"
+        "vlucas/phpdotenv": "^5.4.0",
+        "weareferal/remote-sync": "^4.0"
     },
     "require-dev": {
         "yiisoft/yii2-shell": "^2.0.3"
