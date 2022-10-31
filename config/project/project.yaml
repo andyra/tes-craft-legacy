@@ -1,4 +1,4 @@
-dateModified: 1661279694
+dateModified: 1661902401
 elementSources:
   craft\elements\Asset:
     -
@@ -69,6 +69,7 @@ elementSources:
       tableAttributes:
         - 'field:59bcd338-8afd-4b98-b904-41bc93d58557' # Notation
         - postDate
+        - slug
       type: native
     -
       disabled: false
@@ -286,4 +287,4 @@ system:
   name: 'TES Show'
   retryDuration: null
   schemaVersion: 4.0.0.9
-  timeZone: ''
+  timeZone: America/Belize
