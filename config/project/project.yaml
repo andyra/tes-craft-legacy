@@ -1,4 +1,4 @@
-dateModified: 1661902401
+dateModified: 1674330866
 elementSources:
   craft\elements\Asset:
     -
@@ -220,6 +220,213 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 4.4.0
+  graphql-authentication:
+    edition: standard
+    enabled: true
+    licenseKey: AKZZMAB6NQAGVDYV2BIK1NOG
+    schemaVersion: 1.3.0
+    settings:
+      accountDeleted: 'Successfully deleted account'
+      activationEmailSent: 'You will receive an email if it matches an account in our system'
+      allowRegistration: '1'
+      allowedFacebookDomains: null
+      allowedGoogleDomains: null
+      allowedTwitterDomains: null
+      appleClientId: null
+      appleClientSecret: null
+      appleRedirectUrl: null
+      appleServiceId: null
+      appleServiceSecret: null
+      assetMutations: null
+      assetNotFound: 'We couldn''t find any matching assets'
+      assetQueries:
+        __assoc__:
+          -
+            - files
+            - ''
+      emailNotInScope: 'No email in scope'
+      entryMutations:
+        __assoc__:
+          -
+            - playlists
+            - '1'
+      entryNotFound: 'We couldn''t find any matching entries'
+      entryQueries:
+        __assoc__:
+          -
+            - albums
+            - '1'
+          -
+            - episodes
+            - '1'
+          -
+            - playlists
+            - '1'
+          -
+            - songs
+            - ''
+      facebookAppId: null
+      facebookAppSecret: null
+      facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
+      facebookRedirectUrl: null
+      fieldRestrictions:
+        __assoc__:
+          -
+            - schema-1
+            -
+              __assoc__:
+                -
+                  - albumCoverArt
+                  - queryMutate
+                -
+                  - albumTracklist
+                  - queryMutate
+                -
+                  - albumType
+                  - queryMutate
+                -
+                  - artist
+                  - queryMutate
+                -
+                  - categories
+                  - queryMutate
+                -
+                  - companionAlbum
+                  - queryMutate
+                -
+                  - description
+                  - queryMutate
+                -
+                  - episodeAudio
+                  - queryMutate
+                -
+                  - episodeCoverArt
+                  - queryMutate
+                -
+                  - episodeTracklist
+                  - queryMutate
+                -
+                  - featuredImage
+                  - queryMutate
+                -
+                  - leadSheet
+                  - queryMutate
+                -
+                  - notation
+                  - queryMutate
+                -
+                  - postContent
+                  - queryMutate
+                -
+                  - private
+                  - queryMutate
+                -
+                  - releaseDate
+                  - queryMutate
+                -
+                  - strategies
+                  - queryMutate
+                -
+                  - vimeoId
+                  - queryMutate
+          -
+            - 'schema-Edit Playlists'
+            -
+              __assoc__:
+                -
+                  - albumCoverArt
+                  - queryMutate
+                -
+                  - albumTracklist
+                  - queryMutate
+                -
+                  - albumType
+                  - queryMutate
+                -
+                  - artist
+                  - queryMutate
+                -
+                  - categories
+                  - queryMutate
+                -
+                  - companionAlbum
+                  - queryMutate
+                -
+                  - description
+                  - queryMutate
+                -
+                  - episodeAudio
+                  - queryMutate
+                -
+                  - episodeCoverArt
+                  - queryMutate
+                -
+                  - episodeTracklist
+                  - queryMutate
+                -
+                  - featuredImage
+                  - queryMutate
+                -
+                  - leadSheet
+                  - queryMutate
+                -
+                  - notation
+                  - queryMutate
+                -
+                  - postContent
+                  - queryMutate
+                -
+                  - private
+                  - queryMutate
+                -
+                  - releaseDate
+                  - queryMutate
+                -
+                  - strategies
+                  - queryMutate
+                -
+                  - vimeoId
+                  - queryMutate
+      forbiddenField: 'User doesn''t have permission to access requested field(s)'
+      forbiddenMutation: 'User doesn''t have permission to perform this mutation'
+      googleClientId: $GOOGLE_CLIENT_ID
+      googleEmailMismatch: 'Email address doesn''t match allowed Google domains'
+      googleTokenIdInvalid: 'Invalid Google Token ID'
+      granularSchemas: null
+      invalidEmailAddress: 'Invalid email address'
+      invalidHeader: 'Invalid Authorization Header'
+      invalidJwtSecretKey: 'Invalid JWT Secret Key'
+      invalidLogin: 'We couldn''t log you in with the provided details'
+      invalidOauthToken: 'Invalid OAuth Token'
+      invalidPasswordMatch: 'Passwords do not match'
+      invalidPasswordUpdate: 'We couldn''t update the password with the provided details'
+      invalidRefreshToken: 'Invalid Refresh Token'
+      invalidRequest: 'Cannot validate request'
+      invalidSchema: 'No schema has been set for this user group'
+      invalidUserUpdate: 'We couldn''t update the user with the provided details'
+      jwtExpiration: '15 minutes'
+      jwtRefreshExpiration: '1 year'
+      jwtSecretKey: 4c-KIF5BfPMXN-HFg6g3u8dnO3qOtbyF
+      passwordResetRequired: 'Password reset required; please check your email'
+      passwordResetSent: 'You will receive an email if it matches an account in our system'
+      passwordSaved: 'Successfully saved password'
+      passwordUpdated: 'Successfully updated password'
+      permissionType: single
+      sameSitePolicy: lax
+      schemaId: null
+      schemaName: 'Edit Playlists'
+      siteId: null
+      skipSocialActivation: null
+      tokenNotFound: 'We couldn''t find any matching tokens'
+      twitterApiKey: null
+      twitterApiKeySecret: null
+      twitterEmailMismatch: 'Email address doesn''t match allowed Twitter domains'
+      twitterRedirectUrl: null
+      userActivated: 'Successfully activated user'
+      userGroup: '1'
+      userNotActivated: 'Please activate your account'
+      userNotFound: 'We couldn''t find any matching users'
+      volumeNotFound: 'We couldn''t find any matching volumes'
   redactor:
     edition: standard
     enabled: true
@@ -236,7 +443,7 @@ plugins:
       b2MasterKeyID: ''
       b2RegionName: ''
       cloudProvider: do
-      displayDateFormat: 'Y-m-d H:i:s'
+      displayDateFormat: Y-m-d
       doAccessKey: $SPACES_API_KEY
       doRegionName: $SPACES_REGION
       doSecretKey: $SPACES_SECRET
@@ -284,7 +491,7 @@ plugins:
 system:
   edition: pro
   live: true
-  name: 'TES Show'
+  name: TES
   retryDuration: null
   schemaVersion: 4.0.0.9
   timeZone: America/Belize
