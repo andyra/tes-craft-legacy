@@ -1,4 +1,4 @@
-dateModified: 1674332642
+dateModified: 1674340175
 elementSources:
   craft\elements\Asset:
     -
@@ -88,7 +88,7 @@ fs:
     name: Files
     settings:
       bucket: $SPACES_BUCKET
-      contentDisposition: ''
+      contentDisposition: inline
       endpoint: $SPACES_ENDPOINT
       expires: ''
       keyId: $SPACES_API_KEY
