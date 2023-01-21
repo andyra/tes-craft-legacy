@@ -21,7 +21,7 @@ settings:
   restrictLocation: true
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
-  restrictedLocationSubpath: library
+  restrictedLocationSubpath: 'library/{slug}'
   selectionCondition:
     __assoc__:
       -
