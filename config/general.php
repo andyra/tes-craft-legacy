@@ -30,7 +30,7 @@ return [
   "devMode" => $isDev,
 
   // Whether administrative changes should be allowed
-  "allowAdminChanges" => false,
+  "allowAdminChanges" => !$isProd,
 
   // Whether crawlers should be allowed to index pages and following links
   "disallowRobots" => !$isProd,
