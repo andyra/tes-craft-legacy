@@ -1,4 +1,4 @@
-dateModified: 1674340175
+dateModified: 1674407915
 elementSources:
   craft\elements\Asset:
     -
@@ -223,7 +223,7 @@ plugins:
   graphql-authentication:
     edition: standard
     enabled: true
-    licenseKey: AKZZMAB6NQAGVDYV2BIK1NOG
+    licenseKey: OKX1NJJQQ1YTD4HM2G4Z2FE5
     schemaVersion: 1.3.0
     settings:
       accountDeleted: 'Successfully deleted account'
