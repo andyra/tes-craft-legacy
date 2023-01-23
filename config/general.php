@@ -46,6 +46,8 @@ return [
 
   "maxUploadFileSize" => "256M",
 
+  "sanitizeCpImageUploads" => false,
+
   // https://craftcms.com/docs/4.x/config/#aliases
   "aliases" => [
     "@web" => App::env("PRIMARY_SITE_URL"),
