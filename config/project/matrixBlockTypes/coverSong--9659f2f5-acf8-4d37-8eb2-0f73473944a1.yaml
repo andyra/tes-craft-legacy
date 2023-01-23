@@ -10,13 +10,13 @@ fieldLayouts:
             fieldUid: b5239aff-3060-4188-bb73-be5d0212f4c3 # Song Title
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: dc26ef6f-e1f6-4a84-965b-9348cfe11bcd
             userCondition: null
             warning: null
-            width: 75
+            width: 25
           -
             elementCondition: null
             fieldUid: 97244bbd-6b3a-432e-a3ab-55a3ea66f58f # Audio File
