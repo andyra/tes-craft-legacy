@@ -1,4 +1,4 @@
-dateModified: 1674497527
+dateModified: 1674498969
 elementSources:
   craft\elements\Asset:
     -
@@ -111,7 +111,6 @@ meta:
     5eba3c53-ced4-4bb0-9e92-4c547a01428d: Favorites # Favorites
     6b802ff4-dc8b-47a5-a650-2a7e4dd14e53: Episodes # Episodes
     6c73033a-27a4-46f2-bb0d-467a1fa3e283: Default # Default
-    6d88c108-9da9-4dff-a926-d9f894e7504d: 'Setlist Computor' # Setlist Computor
     7bbb736f-b707-4583-8141-d56e181743d3: 'File Path' # File Path
     7c254cfd-874c-4630-b663-9a96ed2c1f6d: Default # Default
     7d605b47-ab1c-40fa-8bab-c97bb8059fb8: 'Episode Audio' # Episode Audio

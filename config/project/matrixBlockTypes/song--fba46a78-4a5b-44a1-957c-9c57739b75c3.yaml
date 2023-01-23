@@ -10,22 +10,10 @@ fieldLayouts:
             fieldUid: a3fce604-90bf-4998-a7e8-90118753f374 # Song
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b6a73470-84b8-4061-b97b-9bf86d65120b
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            elementCondition: null
-            fieldUid: c1ad5669-dd38-4310-89fe-97bd2591aa05 # Title Variant
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 393a58dc-638d-443c-8193-94d6ef1aced8
             userCondition: null
             warning: null
             width: 25
@@ -38,6 +26,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: f4b12e62-ffb1-483a-b4f9-865b8eb24b48
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: c1ad5669-dd38-4310-89fe-97bd2591aa05 # Title Variant
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 393a58dc-638d-443c-8193-94d6ef1aced8
             userCondition: null
             warning: null
             width: 25

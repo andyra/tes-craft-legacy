@@ -30,7 +30,7 @@ fields:
     name: Text
     searchable: false
     settings:
-      availableTransforms: '*'
+      availableTransforms: ''
       availableVolumes: '*'
       columnType: text
       configSelectionMode: choose

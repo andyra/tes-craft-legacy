@@ -10,7 +10,7 @@ fieldLayouts:
             fieldUid: cae7015e-7b1c-4b04-b9ae-f65ebf885a52 # Image
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b24b4cea-3efc-4ef6-ac86-27d29f2e0647
@@ -42,7 +42,7 @@ fields:
     name: Caption
     searchable: false
     settings:
-      availableTransforms: '*'
+      availableTransforms: ''
       availableVolumes: '*'
       columnType: text
       configSelectionMode: choose

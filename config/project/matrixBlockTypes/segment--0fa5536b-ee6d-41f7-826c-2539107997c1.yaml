@@ -10,13 +10,13 @@ fieldLayouts:
             fieldUid: 7816e0d7-a0b1-49b3-9c54-523fc9c764a2 # Description
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b4644088-9f64-4b4c-a0f6-9a77923e5fac
             userCondition: null
             warning: null
-            width: 75
+            width: 25
           -
             elementCondition: null
             fieldUid: d77233b0-f47a-47da-9355-bbdad67e652d # Audio File
