@@ -30,7 +30,7 @@ return [
   "devMode" => $isDev,
 
   // Whether administrative changes should be allowed
-  "allowAdminChanges" => false,
+  "allowAdminChanges" => !$isProd,
 
   // Whether crawlers should be allowed to index pages and following links
   "disallowRobots" => !$isProd,
@@ -45,6 +45,8 @@ return [
   "filenameWordSeparator" => false,
 
   "maxUploadFileSize" => "256M",
+
+  "sanitizeCpImageUploads" => false,
 
   // https://craftcms.com/docs/4.x/config/#aliases
   "aliases" => [
