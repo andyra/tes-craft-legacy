@@ -1,4 +1,4 @@
-description: null
+description: ''
 handle: editor
 name: Editor
 permissions:
@@ -32,6 +32,7 @@ permissions:
   - 'deletepeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
   - 'deletepeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
   - 'deletepeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
+  - 'editglobalset:53f9f840-0127-4751-a68b-c967bf46f314' # Setlist Computor
   - 'editimages:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
   - 'editpeerimages:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
   - 'replacefiles:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
