@@ -1,4 +1,4 @@
-dateModified: 1674754085
+dateModified: 1674761726
 elementSources:
   craft\elements\Asset:
     -
@@ -81,7 +81,17 @@ elementSources:
 email:
   fromEmail: asmith.esq@gmail.com
   fromName: TES
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    encryptionMethod: tls
+    host: $SENDGRID_HOST
+    password: $SENDGRID_PASSWORD
+    port: $SENDGRID_PORT
+    timeout: '10'
+    useAuthentication: '1'
+    username: $SENDGRID_USERNAME
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   files:
     hasUrls: true
