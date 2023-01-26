@@ -1,4 +1,4 @@
-dateModified: 1674761726
+dateModified: 1674763302
 elementSources:
   craft\elements\Asset:
     -
@@ -79,8 +79,8 @@ elementSources:
         - postDate
       type: native
 email:
-  fromEmail: asmith.esq@gmail.com
-  fromName: TES
+  fromEmail: $EMAIL_FROM_ADDRESS
+  fromName: $EMAIL_SENDER_NAME
   replyToEmail: null
   template: ''
   transportSettings:
