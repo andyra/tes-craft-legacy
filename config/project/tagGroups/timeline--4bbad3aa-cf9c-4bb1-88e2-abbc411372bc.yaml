@@ -1,0 +1,37 @@
+fieldLayouts:
+  507a8c49-8b0f-47f0-820e-f9eaad4b9fb9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 7ff60097-2f8f-480c-a23d-5e2a5c7e5857
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1dd063c9-d512-4e32-bf71-fa9889d4d20b
+        userCondition: null
+handle: timeline
+name: Timeline

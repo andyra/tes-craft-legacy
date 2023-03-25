@@ -59,9 +59,11 @@ fields:
       allowUploads: true
       allowedKinds:
         - audio
+      branchLimit: null
       defaultUploadLocationSource: 'volume:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
       defaultUploadLocationSubpath: null
       localizeRelations: false
+      maintainHierarchy: false
       maxRelations: 1
       minRelations: null
       previewMode: full
@@ -85,7 +87,6 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      source: null
       sources: '*'
       targetSiteId: null
       validateRelatedElements: false
@@ -123,7 +124,9 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      branchLimit: null
       localizeRelations: false
+      maintainHierarchy: false
       maxRelations: 1
       minRelations: null
       selectionCondition:
@@ -139,7 +142,6 @@ fields:
             - craft\elements\conditions\entries\EntryCondition
       selectionLabel: 'Select Song'
       showSiteMenu: true
-      source: null
       sources:
         - 'section:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
       targetSiteId: null

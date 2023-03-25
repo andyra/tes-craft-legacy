@@ -1,12 +1,13 @@
 {
   "require": {
-    "craftcms/cms": "4.3.6.1",
-    "craftcms/feed-me": "5.0.5",
-    "craftcms/redactor": "3.0.3",
+    "craftcms/cms": "4.4.5",
+    "craftcms/feed-me": "5.1.1.1",
+    "craftcms/redactor": "3.0.4",
     "craftcms/webhooks": "3.0.4",
-    "jamesedmonston/graphql-authentication": "2.3.0",
+    "jamesedmonston/graphql-authentication": "2.4.0",
     "vaersaagod/dospaces": "^2.0.0",
     "verbb/cp-nav": "4.0.10",
+    "verbb/expanded-singles": "2.0.1",
     "vlucas/phpdotenv": "^5.4.0",
     "weareferal/remote-sync": "4.1.1"
   },
