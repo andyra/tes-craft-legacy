@@ -32,18 +32,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: bcbe0faf-8c8b-4be1-adca-2791836a6795 # Album Cover Art
-            instructions: null
-            label: 'Cover Art'
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 2ceacc53-a103-4ec8-b087-a0aeee3c388e
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
             fieldUid: 0d4e721a-1df5-46c1-bde2-e3e5699653e2 # Album Type
             instructions: null
             label: Type
@@ -55,7 +43,41 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 0d4e721a-1df5-46c1-bde2-e3e5699653e2 # Album Type
+                  operator: ni
+                  uid: b239327c-d0a2-4ad1-a5dd-540560bf47a3
+                  values:
+                    - bargainBin
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 77d758ad-88c1-40f2-a2ec-c595667488c7 # Artist
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f5d717d1-844f-4d46-8e70-58ad55ab9d05
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 0d4e721a-1df5-46c1-bde2-e3e5699653e2 # Album Type
+                  operator: ni
+                  uid: 29c5a71b-a2be-41ed-958e-ab4c9dfb63d7
+                  values:
+                    - bargainBin
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 0662a000-6e80-4a92-86af-54fd60144adb # Release Date
             instructions: null
             label: null
@@ -67,14 +89,25 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            elementCondition: null
-            fieldUid: 77d758ad-88c1-40f2-a2ec-c595667488c7 # Artist
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 0d4e721a-1df5-46c1-bde2-e3e5699653e2 # Album Type
+                  operator: ni
+                  uid: bfbbeb4c-9ba6-40de-acf9-69a7de6906fb
+                  values:
+                    - bargainBin
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: bcbe0faf-8c8b-4be1-adca-2791836a6795 # Album Cover Art
             instructions: null
-            label: null
-            required: false
+            label: 'Cover Art'
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f5d717d1-844f-4d46-8e70-58ad55ab9d05
+            uid: 2ceacc53-a103-4ec8-b087-a0aeee3c388e
             userCondition: null
             warning: null
             width: 25
