@@ -1,5 +1,5 @@
 defaultPlacement: end
-enableVersioning: true
+enableVersioning: false
 handle: timeline
 name: Timeline
 previewTargets:
@@ -20,5 +20,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: timeline
+    uriFormat: __home__
 type: single
