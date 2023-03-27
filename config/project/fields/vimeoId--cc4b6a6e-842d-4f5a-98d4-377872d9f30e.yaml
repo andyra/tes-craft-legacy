@@ -2,7 +2,7 @@ columnSuffix: otskpfrc
 contentColumnType: text
 fieldGroup: 756d424d-5197-4be0-9bfa-0ed38fe0a45e # Video
 handle: vimeoId
-instructions: 'The ID of the video (ex: <code>34453606</code>)'
+instructions: 'The ID of the video (ex: 34453606)'
 name: 'Vimeo ID'
 searchable: false
 settings:

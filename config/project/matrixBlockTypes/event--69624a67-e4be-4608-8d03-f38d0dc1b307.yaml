@@ -43,7 +43,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 84d6a5da-c384-4483-b29d-b96099767e99 # Tag
+            fieldUid: 84d6a5da-c384-4483-b29d-b96099767e99 # Tags
             instructions: null
             label: null
             required: false
@@ -88,7 +88,7 @@ fields:
       branchLimit: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: null
+      maxRelations: 1
       minRelations: null
       selectionCondition:
         __assoc__:
@@ -112,13 +112,13 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  84d6a5da-c384-4483-b29d-b96099767e99: # Tag
+  84d6a5da-c384-4483-b29d-b96099767e99: # Tags
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: tag
+    handle: tags
     instructions: null
-    name: Tag
+    name: Tags
     searchable: false
     settings:
       allowSelfRelations: false
