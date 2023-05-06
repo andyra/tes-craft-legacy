@@ -29,10 +29,11 @@ permissions:
   - 'deletepeerentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
   - 'deletepeerentrydrafts:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
   - 'deletepeerentrydrafts:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'deletepeerentrydrafts:7421830d-d21d-4f02-ba04-28dd1e631f02' # Timeline
   - 'deletepeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'deletepeerentrydrafts:8068677b-2849-404d-813d-9b9b51bb2e3b' # Setlist Computor
   - 'deletepeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
   - 'deletepeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
-  - 'editglobalset:53f9f840-0127-4751-a68b-c967bf46f314'
   - 'editimages:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
   - 'editpeerimages:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
   - 'replacefiles:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
@@ -42,7 +43,9 @@ permissions:
   - 'savecategories:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
   - 'saveentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
   - 'saveentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'saveentries:7421830d-d21d-4f02-ba04-28dd1e631f02' # Timeline
   - 'saveentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'saveentries:8068677b-2849-404d-813d-9b9b51bb2e3b' # Setlist Computor
   - 'saveentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
   - 'saveentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
   - 'savepeerassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
@@ -55,7 +58,9 @@ permissions:
   - 'savepeerentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
   - 'savepeerentrydrafts:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
   - 'savepeerentrydrafts:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'savepeerentrydrafts:7421830d-d21d-4f02-ba04-28dd1e631f02' # Timeline
   - 'savepeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'savepeerentrydrafts:8068677b-2849-404d-813d-9b9b51bb2e3b' # Setlist Computor
   - 'savepeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
   - 'savepeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
   - 'viewassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
@@ -63,7 +68,9 @@ permissions:
   - 'viewcategories:fc529425-c660-4760-8b25-523f8675ed7c' # Artists
   - 'viewentries:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
   - 'viewentries:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'viewentries:7421830d-d21d-4f02-ba04-28dd1e631f02' # Timeline
   - 'viewentries:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'viewentries:8068677b-2849-404d-813d-9b9b51bb2e3b' # Setlist Computor
   - 'viewentries:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
   - 'viewentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
   - 'viewpeerassets:2173db2f-6479-4618-93b6-7268d73a8c6a' # Files
@@ -76,6 +83,8 @@ permissions:
   - 'viewpeerentries:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
   - 'viewpeerentrydrafts:309262c6-c9aa-4b76-89d2-66718d1a77f3' # Albums
   - 'viewpeerentrydrafts:6b802ff4-dc8b-47a5-a650-2a7e4dd14e53' # Episodes
+  - 'viewpeerentrydrafts:7421830d-d21d-4f02-ba04-28dd1e631f02' # Timeline
   - 'viewpeerentrydrafts:76ad2bc9-514a-434f-bc85-df4c60452ed4' # Library
+  - 'viewpeerentrydrafts:8068677b-2849-404d-813d-9b9b51bb2e3b' # Setlist Computor
   - 'viewpeerentrydrafts:9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7' # Songs
   - 'viewpeerentrydrafts:d3b80462-3ec8-4fd0-9e36-120250c82f43' # Videos
