@@ -58,7 +58,7 @@ fieldLayouts:
             fieldUid: 77d758ad-88c1-40f2-a2ec-c595667488c7 # Artist
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: f5d717d1-844f-4d46-8e70-58ad55ab9d05

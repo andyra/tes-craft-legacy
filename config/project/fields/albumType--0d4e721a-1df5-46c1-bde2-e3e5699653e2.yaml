@@ -40,17 +40,6 @@ settings:
         -
           - default
           - ''
-    -
-      __assoc__:
-        -
-          - label
-          - 'Bargain Bin'
-        -
-          - value
-          - bargainBin
-        -
-          - default
-          - ''
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\RadioButtons

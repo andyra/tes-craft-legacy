@@ -40,7 +40,7 @@ siteSettings:
   7926d1d4-2868-4570-a130-3ad5f97521f3: # TES
     hasUrls: true
     template: null
-    uriFormat: 'wiki/{slug}'
+    uriFormat: 'library/category/{slug}'
 structure:
   maxLevels: null
   uid: 82690236-ba96-4935-8fb3-fcb812640e56
