@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: false
-handle: timeline
-name: Timeline
+handle: setlistComputor
+name: 'Setlist Computor'
 previewTargets:
   -
     __assoc__:
@@ -20,5 +20,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: timeline
+    uriFormat: setlist
 type: single

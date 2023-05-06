@@ -11,6 +11,8 @@ scope:
   - 'sections.e9724a2b-08e5-4af5-912f-8b72f34e4dd2:read' # Playlists
   - 'entrytypes.d6273500-077c-4c0b-a3ad-ca45d74dc701:read' # Default
   - 'entrytypes.5eba3c53-ced4-4bb0-9e92-4c547a01428d:read' # Favorites
+  - 'sections.8068677b-2849-404d-813d-9b9b51bb2e3b:read' # Setlist Computor
+  - 'entrytypes.daa98f95-76eb-413e-acfe-72463d54a726:read' # Setlist Computor
   - 'sections.9d53bdc7-ff3a-40e4-b9ed-3f179981fdf7:read' # Songs
   - 'entrytypes.779e74cf-9ab8-4eb6-a8e4-51ac994eb9ad:read' # Default
   - 'sections.7421830d-d21d-4f02-ba04-28dd1e631f02:read' # Timeline
@@ -18,7 +20,7 @@ scope:
   - 'sections.d3b80462-3ec8-4fd0-9e36-120250c82f43:read' # Videos
   - 'entrytypes.6c73033a-27a4-46f2-bb0d-467a1fa3e283:read' # Default
   - 'volumes.2173db2f-6479-4618-93b6-7268d73a8c6a:read' # Files
-  - 'globalsets.53f9f840-0127-4751-a68b-c967bf46f314:read' # Setlist Computor
+  - 'globalsets.53f9f840-0127-4751-a68b-c967bf46f314:read'
   - 'categorygroups.fc529425-c660-4760-8b25-523f8675ed7c:read' # Artists
   - 'categorygroups.2475be09-4d11-4c7f-87f7-809d12c934e0:read' # Library
   - 'taggroups.4bbad3aa-cf9c-4bb1-88e2-abbc411372bc:read' # Timeline

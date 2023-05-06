@@ -38,6 +38,9 @@ return [
   // Whether the GraphQL API should be enabled
   "enableGql" => true,
 
+  // Whether Craft should cache GraphQL queries
+  "enableGraphqlCaching" => false,
+
   // Whether the system should run in Headless Mode, which optimizes the system and control panel for headless CMS implementations
   "headlessMode" => true,
 
